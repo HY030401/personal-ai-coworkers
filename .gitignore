@@ -218,3 +218,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local runtime, memory and private exports
+.runtime/
+data/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3*
+.env.*
+!.env.example
+career-readiness*.md
